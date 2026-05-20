@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live Attack Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+        body { margin: 0; background: #111; color: white; font-family: Arial, sans-serif; }
+        h2 { text-align: center; padding: 10px; }
+        #map { height: 90vh; }
+    </style>
+</head>
+
+<body>
+
+<h2>🌍 Live Cyber Attack Map</h2>
+<div id="map"></div>
+
+<!-- Fix: use url_for for correct static path -->
+<script src="{{ url_for('static', filename='map.js') }}"></script>
+
+</body>
+</html>

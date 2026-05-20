@@ -1,0 +1,3 @@
+{"src_ip":"1.1.1.1","input":"ls","failed_attempts":5}
+{"src_ip":"2.2.2.2","input":"whoami","failed_attempts":0}
+{"src_ip":"3.3.3.3","input":"pwd","failed_attempts":8}
